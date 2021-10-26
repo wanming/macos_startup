@@ -1,0 +1,21 @@
+{
+  "name": "macos-startup",
+  "version": "0.0.1",
+  "description": "Get list of macOS startup items.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "startup_items": "./index.js"
+  },
+  "keywords": [
+    "macos",
+    "startup"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "plist": "^3.0.4"
+  }
+}
